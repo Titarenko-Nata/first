@@ -5,7 +5,7 @@ class Bankomat{
 	public $balanceFile = 'balance.txt';
 	public $pin;
 	public $pinEnter;
-  public $balance;
+        public $balance;
 	public $action;
 	public $money;
 
@@ -80,13 +80,13 @@ public function updateBalance(){
 $myBank = new Bankomat();
 $myBank -> enterPin();
  if(isset($myBank->pinEnter)) {
- 	  $myBank -> comparePin();
+    $myBank -> comparePin();
  	}
  if(isset($myBank->action)) {
- 		$myBank -> action();
+    $myBank -> action();
  	}
  if(isset($myBank->money)) {
- 		$myBank -> enterMoney();
+    $myBank -> enterMoney();
  	}
 
 
