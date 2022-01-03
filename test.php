@@ -1,11 +1,11 @@
 
 <?
 class Bankomat{
-	public $file = 'pin.txt';
-	public $balanceFile = 'balance.txt';
-	public $pin;
+	private $file = 'pin.txt';
+	private $balanceFile = 'balance.txt';
+	private $pin;
 	public $pinEnter;
-        public $balance;
+        private $balance;
 	public $action;
 	public $money;
 
